@@ -185,7 +185,6 @@
       var result;
       sum > 1 ? result = true : result = false;
       return result;
-
     },
 
     // test if any minor diagonals on this board contain conflicts
