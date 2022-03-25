@@ -127,7 +127,7 @@
         }
         bool = this.hasColConflictAt(i);
       }
-      return false; // fixme
+      return bool; // fixme
     },
 
 
@@ -162,7 +162,7 @@
         }
         bool = this.hasMajorDiagonalConflictAt(i);
       }
-      return false; // fixme
+      return bool; // fixme
     },
 
 
@@ -197,7 +197,7 @@
         }
         bool = this.hasMinorDiagonalConflictAt(i);
       }
-      return false; // fixme
+      return bool; // fixme
     }
 
     /*--------------------  End of Helper Functions  ---------------------*/
