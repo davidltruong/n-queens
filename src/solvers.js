@@ -94,9 +94,6 @@ window.countNRooksSolutions = function(n) {
 
 // return a matrix (an array of arrays) representing a single nxn chessboard, with n queens placed such that none of them can attack each other
 window.findNQueensSolution = function(n) {
-  if (n === 4) {
-    debugger;
-  }
 
   if (arguments[1]) {
     var solution = arguments[1];

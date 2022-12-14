@@ -79,9 +79,11 @@
     //
     // test if a specific row on this board contains a conflict
     hasRowConflictAt: function(rowIndex) {
+
       var sum = 0;
       for ( var i = 0; i < rowIndex.length; i++) {
         sum += rowIndex[i];
+        console.log(this.attributes[i])
       }
       var result;
       sum > 1 ? result = true : result = false;
