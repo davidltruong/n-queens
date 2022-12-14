@@ -25,8 +25,10 @@ This project uses [node](http://nodejs.org) and [npm](https://npmjs.com).
 
 This project is to showcase the use of function algorithms. There is a 4x4 chessboard showing 4 queens. When the 4 queens are place in any way, the board will show if there are any conflicts between the queens in a way where they are compromised.
 
+When the pieces do not compromise each other, the board will not show any highlights.
 ![alt text](https://github.com/davidltruong/n-queens/blob/master/Screenshot1.png?raw=true)
 
+When the board has issues, the rows, columns, diaganols will highlight in red.
 ![alt text](https://github.com/davidltruong/n-queens/blob/master/Screenshot2.png?raw=true)
 
 ## Maintainers
